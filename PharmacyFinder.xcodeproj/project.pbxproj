@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763D19E1292D0DCC008150DA /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D19E0292D0DCC008150DA /* Region.swift */; };
+		763D19E3292D0E3F008150DA /* PharmacyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D19E2292D0E3F008150DA /* PharmacyDetail.swift */; };
+		763D19E5292D1EF4008150DA /* RegionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D19E4292D1EF4008150DA /* RegionViewController.swift */; };
+		763D19EA292D2062008150DA /* RegionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D19E9292D2062008150DA /* RegionTableViewCell.swift */; };
+		763D19EC292D3781008150DA /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D19EB292D3781008150DA /* Pharmacy.swift */; };
+		763D19EE292D39D5008150DA /* PharmacyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D19ED292D39D5008150DA /* PharmacyTableViewCell.swift */; };
+		763D19F0292D3A7C008150DA /* PharmacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D19EF292D3A7C008150DA /* PharmacyViewController.swift */; };
+		763D19F2292D478D008150DA /* PharmacyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D19F1292D478D008150DA /* PharmacyDetailViewController.swift */; };
+		766FFEC5292CDB4A00592C59 /* PharmacyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766FFEC4292CDB4A00592C59 /* PharmacyDataSource.swift */; };
+		766FFEC7292CDB9000592C59 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766FFEC6292CDB9000592C59 /* City.swift */; };
+		766FFEC9292CE17B00592C59 /* PharmacyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766FFEC8292CE17B00592C59 /* PharmacyDelegate.swift */; };
 		76BB379B292CBBA7002A3AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB379A292CBBA7002A3AEB /* AppDelegate.swift */; };
 		76BB379D292CBBA7002A3AEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB379C292CBBA7002A3AEB /* SceneDelegate.swift */; };
-		76BB379F292CBBA7002A3AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB379E292CBBA7002A3AEB /* ViewController.swift */; };
+		76BB379F292CBBA7002A3AEB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB379E292CBBA7002A3AEB /* MainViewController.swift */; };
 		76BB37A2292CBBA8002A3AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BB37A0292CBBA8002A3AEB /* Main.storyboard */; };
 		76BB37A4292CBBAC002A3AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BB37A3292CBBAC002A3AEB /* Assets.xcassets */; };
 		76BB37A7292CBBAC002A3AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BB37A5292CBBAC002A3AEB /* LaunchScreen.storyboard */; };
+		76BB37B3292CD93A002A3AEB /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB37B2292CD93A002A3AEB /* CityTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		763D19E0292D0DCC008150DA /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		763D19E2292D0E3F008150DA /* PharmacyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetail.swift; sourceTree = "<group>"; };
+		763D19E4292D1EF4008150DA /* RegionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionViewController.swift; sourceTree = "<group>"; };
+		763D19E9292D2062008150DA /* RegionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTableViewCell.swift; sourceTree = "<group>"; };
+		763D19EB292D3781008150DA /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
+		763D19ED292D39D5008150DA /* PharmacyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyTableViewCell.swift; sourceTree = "<group>"; };
+		763D19EF292D3A7C008150DA /* PharmacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyViewController.swift; sourceTree = "<group>"; };
+		763D19F1292D478D008150DA /* PharmacyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetailViewController.swift; sourceTree = "<group>"; };
+		766FFEC4292CDB4A00592C59 /* PharmacyDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDataSource.swift; sourceTree = "<group>"; };
+		766FFEC6292CDB9000592C59 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		766FFEC8292CE17B00592C59 /* PharmacyDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDelegate.swift; sourceTree = "<group>"; };
 		76BB3797292CBBA7002A3AEB /* PharmacyFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PharmacyFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BB379A292CBBA7002A3AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76BB379C292CBBA7002A3AEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76BB379E292CBBA7002A3AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76BB379E292CBBA7002A3AEB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		76BB37A1292CBBA8002A3AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76BB37A3292CBBAC002A3AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76BB37A6292CBBAC002A3AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76BB37A8292CBBAC002A3AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BB37B2292CD93A002A3AEB /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		763D19E6292D1FAC008150DA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				76BB37B2292CD93A002A3AEB /* CityTableViewCell.swift */,
+				763D19E9292D2062008150DA /* RegionTableViewCell.swift */,
+				763D19ED292D39D5008150DA /* PharmacyTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		76BB378E292CBBA7002A3AEB = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +90,49 @@
 		76BB3799292CBBA7002A3AEB /* PharmacyFinder */ = {
 			isa = PBXGroup;
 			children = (
+				76BB37B1292CD894002A3AEB /* Controllers */,
+				76BB37AF292CD871002A3AEB /* Delegate */,
+				76BB37AE292CD44C002A3AEB /* Model */,
 				76BB379A292CBBA7002A3AEB /* AppDelegate.swift */,
 				76BB379C292CBBA7002A3AEB /* SceneDelegate.swift */,
-				76BB379E292CBBA7002A3AEB /* ViewController.swift */,
 				76BB37A0292CBBA8002A3AEB /* Main.storyboard */,
 				76BB37A3292CBBAC002A3AEB /* Assets.xcassets */,
 				76BB37A5292CBBAC002A3AEB /* LaunchScreen.storyboard */,
 				76BB37A8292CBBAC002A3AEB /* Info.plist */,
 			);
 			path = PharmacyFinder;
+			sourceTree = "<group>";
+		};
+		76BB37AE292CD44C002A3AEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				766FFEC4292CDB4A00592C59 /* PharmacyDataSource.swift */,
+				766FFEC6292CDB9000592C59 /* City.swift */,
+				763D19E0292D0DCC008150DA /* Region.swift */,
+				763D19E2292D0E3F008150DA /* PharmacyDetail.swift */,
+				763D19EB292D3781008150DA /* Pharmacy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76BB37AF292CD871002A3AEB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				766FFEC8292CE17B00592C59 /* PharmacyDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		76BB37B1292CD894002A3AEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				763D19E6292D1FAC008150DA /* Cells */,
+				76BB379E292CBBA7002A3AEB /* MainViewController.swift */,
+				763D19E4292D1EF4008150DA /* RegionViewController.swift */,
+				763D19EF292D3A7C008150DA /* PharmacyViewController.swift */,
+				763D19F1292D478D008150DA /* PharmacyDetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +206,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76BB379F292CBBA7002A3AEB /* ViewController.swift in Sources */,
+				763D19E5292D1EF4008150DA /* RegionViewController.swift in Sources */,
+				766FFEC5292CDB4A00592C59 /* PharmacyDataSource.swift in Sources */,
+				763D19EC292D3781008150DA /* Pharmacy.swift in Sources */,
+				763D19F2292D478D008150DA /* PharmacyDetailViewController.swift in Sources */,
+				76BB379F292CBBA7002A3AEB /* MainViewController.swift in Sources */,
+				766FFEC7292CDB9000592C59 /* City.swift in Sources */,
+				763D19E1292D0DCC008150DA /* Region.swift in Sources */,
 				76BB379B292CBBA7002A3AEB /* AppDelegate.swift in Sources */,
+				76BB37B3292CD93A002A3AEB /* CityTableViewCell.swift in Sources */,
+				763D19E3292D0E3F008150DA /* PharmacyDetail.swift in Sources */,
 				76BB379D292CBBA7002A3AEB /* SceneDelegate.swift in Sources */,
+				766FFEC9292CE17B00592C59 /* PharmacyDelegate.swift in Sources */,
+				763D19F0292D3A7C008150DA /* PharmacyViewController.swift in Sources */,
+				763D19EA292D2062008150DA /* RegionTableViewCell.swift in Sources */,
+				763D19EE292D39D5008150DA /* PharmacyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +375,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +404,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
